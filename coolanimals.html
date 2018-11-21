@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Cool Animals</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link href="./css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=K2D" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+  <script src="javascript/slideshow.js"></script>
+
+</head>
+
+<body class="coolanimals">
+  <header>
+    <nav>
+      <div class="navigation">
+        <ul>
+          <li><a href="index.html"> Home Page  </a></li>
+          <li><a href="resume.html"> Resume  </a></li>
+          <li><a href="coolanimals.html"> Cool Animals</a></li>
+        </ul>
+      </div>
+    </nav>
+      <h1> Cool Animals</h1>
+  </header>
+
+  <div class="animals">
+    <p> I find animals absolutely amazing so here's a few cool ones that I found while browsing online! Please take the chance to look through and enjoy these lovely creatures!</p>
+  </div>
+
+<h2> Please press one of the circles to enable the slideshow!</h2>
+<div class="slideshow">
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 4</div>
+    <img src="media/kittens.jpeg" alt="Kittens" width="1500">
+    <div class="text">Kittens</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 4</div>
+    <img src="media/reptile.jpeg" alt="Reptile" width="1500">
+    <div class="text">Reptile</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 4</div>
+    <img src="media/doggy.jpg" alt="Doggy" width="1500">
+    <div class="text">Doggy</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 4</div>
+    <img src="media/lion.jpg" alt ="Lion" width="1500">
+    <div class="text">Lion</div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+
+  <div class="video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/y3PcelCeraw" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+
+  <p> Images gathered from various sources online falling under fair use in this javascript project!</p>
+</body>
+</html>
